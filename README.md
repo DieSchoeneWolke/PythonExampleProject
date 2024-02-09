@@ -5,4 +5,5 @@ software professionally.
 
 Clone the repo and run `pip install -e .[dev]` to setup the project locally.
 
-After that, run `tox` which will run pre-commit, linting, pytest and run a Github Workflow for you.
+After that, run `tox` which will run pre-commit, linting and run pytest for you.
+When pushing or creating a pull request on this repository a Github Workflow is triggered.
