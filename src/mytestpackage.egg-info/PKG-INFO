@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mytestpackage
+Version: 0.0.1
+Summary: Sample Package
+Author-email: Markus Lang <datamastery87@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas==2.2.0
+Requires-Dist: numpy==1.26.4
+Provides-Extra: dev
+Requires-Dist: autoflake==2.2.1; extra == "dev"
+Requires-Dist: black==24.1.1; extra == "dev"
+Requires-Dist: build==1.0.3; extra == "dev"
+Requires-Dist: coverage==7.4.1; extra == "dev"
+Requires-Dist: flake8==7.0.0; extra == "dev"
+Requires-Dist: isort==5.13.2; extra == "dev"
+Requires-Dist: mypy==1.8; extra == "dev"
+Requires-Dist: pre-commit==3.6.0; extra == "dev"
+Requires-Dist: pytest==8.0.0; extra == "dev"
+Requires-Dist: pytest-cov==4.1.0; extra == "dev"
+Requires-Dist: toml==0.10.2; extra == "dev"
+Requires-Dist: tox==4.12.1; extra == "dev"
+Requires-Dist: twine==4.0.2; extra == "dev"
+Requires-Dist: tox-gh-actions==3.2.0; extra == "dev"
+
+# Example Project
+
+This repo contains an example python project with a folder structure and files you need to develop
+software professionally.
+
+Clone the repo and run `pip install -e .[dev]` to setup the project locally.
+
+After that, run `tox` which will run pre-commit, linting, pytest and run a Github Workflow for you.
