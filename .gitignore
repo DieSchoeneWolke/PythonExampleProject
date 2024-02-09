@@ -22,3 +22,4 @@ archive.zip
 .tox
 *~
 .*.sw?
+*.egg-info
